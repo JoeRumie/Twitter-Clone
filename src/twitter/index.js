@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router';
 import { NavigationSidebar } from './navigation-sidebar';
-import { HomeScreen } from './home-screen';
+import  HomeScreen  from './home-screen';
 import  ExploreScreen  from './explore-screen';
 import { BookmarksScreen } from './bookmarks-screen';
 import { ProfileScreen } from './profile-screen';

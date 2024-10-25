@@ -1,3 +1,11 @@
-export const HomeScreen = () => {
-    return <h1>Home</h1>
+import WhatsHappening from "./whats-happening";
+
+const HomeScreen = () => {
+    return (
+        <div>
+            <h2>Home</h2>
+            <WhatsHappening/>
+        </div>
+    )
 };
+export default HomeScreen;
